@@ -1,0 +1,57 @@
+.login-background {
+  background-color: #2E2E2E; /* Gris foncé */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-card {
+  background-color: #3c3c3c !important; /* Fond du formulaire */
+  color: #ffffff !important; /* Texte blanc */
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo-img {
+  width: 80px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card-header h2 {
+  color: #FFFFFF;
+  font-size: 1.5em;
+  margin-bottom: 5px;
+}
+
+.card-header p {
+  color: #A9A9A9; /* Gris clair */
+  font-size: 1em;
+  margin: 0;
+}
+
+.form-control {
+  background-color: #4A4A4A; /* Gris moyen pour les champs de saisie */
+  color: #FFFFFF;
+  border: none;
+}
+
+.form-control:focus {
+  border: 1px solid #1E90FF; /* Bleu en surbrillance */
+  box-shadow: none;
+}
+
+.btn-primary {
+  background-color: #1E90FF; /* Bleu correspondant au logo */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #1C86EE; /* Légèrement plus foncé au survol */
+}
+
+#lglabel, #pwdlabel {
+  color: #2E2E2E;
+}
